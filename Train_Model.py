@@ -12,7 +12,7 @@ import joblib
 # 1. Paths
 # -------------------------------
 script_dir = os.path.dirname(os.path.abspath(__file__))
-data_path = os.path.join(script_dir,"fraud_dataset_5000.csv")  # your dataset in project root
+data_path = os.path.join(script_dir, "..", "fraud_dataset_5000.csv")  # your dataset in project root
 print("Looking for dataset at:", data_path)
 
 # -------------------------------
